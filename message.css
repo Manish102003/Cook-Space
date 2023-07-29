@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300&display=swap');
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Merienda', cursive;
+}
+
+body {
+    /* background: url("https://images.unsplash.com/photo-1556139902-7367723b7e9e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    background-color: rgba(74, 117, 248, 0.851);
+    font-size: 1.6rem;
+    height: 100vh;
+    text-align: center;
+  
+}
+.main-heading{
+    font-size: 7rem;
+    color:rgb(255, 255, 255);
+    text-shadow: -1px 2px 0 #000,1px 1px 0 #000,1px -1px 0 #000, -1px -1px 0 #000;
+}
+
+.search-items{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-query{
+    /* position:fixed; */
+    /* top:90vh; */
+    width:70%;
+    margin:2rem 1rem;
+    font-family: 'Merienda', cursive;
+    border: transparent;
+    font-weight: bold;
+    box-shadow: 1px 1px 10px rgba(54, 48, 48, 0.585);
+    outline:none;
+    font-size: 1.8rem;
+    border-radius: 10px;
+    height: 4rem;
+    padding:0 1.5rem;
+    /* transform: translate(-54.5%,-50%); */
+    background-color: rgba(255, 255, 255, 0.367);
+}
+.search-btn{
+    /* position: fixed;
+    top:90vh;
+    right:20vh; */
+    margin:2rem 1rem;
+    height:4rem;
+    /* transform: translate(10%,-50%); */
+    font-weight: bold;
+    width:8rem;
+    border:none;
+    font-size: 1.8rem;
+    font-family: 'Merienda', cursive;
+    border: transparent;
+    box-shadow: 1px 1px 10px rgba(54, 48, 48, 0.585);
+    outline:none;
+    border-radius: 10px;
+    background-color:#000000b5;
+    color: white;
+}
+.search-btn:active{
+    background-color: #00000081;
+    color: rgb(255, 255, 255);
+}
+.output{
+    padding:3rem;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.367);
+    height: 70vh;
+    width:80%;
+    margin:0 auto;
+    text-align: justify;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px rgba(54, 48, 48, 0.585);
+}
